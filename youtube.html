@@ -1,26 +1,34 @@
-<!DOCTYPE html>
 <html>
   <head>
-    <title>Video Player</title>
-    <style>
-      .video-container {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-      }
-      .video-frame {
-        width: calc(33.33% - 10px);
-        height: 200px;
-        margin: 5px;
-      }
-    </style>
+    <title>TWRP for Android</title>
   </head>
   <body>
-    <div class="video-container">
-      <iframe class="video-frame" src="https://www.youtube.com/embed/video1_id" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      <!-- Add additional iframe elements for the remaining videos -->
-    </div>
+    <header>
+      <h1>Team Win Recovery Project (TWRP)</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="#overview">Overview</a></li>
+        <li><a href="#installation">Installation</a></li>
+        <li><a href="#usage">Usage</a></li>
+      </ul>
+    </nav>
+    <main>
+      <section id="overview">
+        <h2>Overview</h2>
+        <p>TWRP (Team Win Recovery Project) adalah custom recovery untuk perangkat Android. TWRP memungkinkan pengguna untuk membackup dan memulihkan sistem operasi, memasang file ZIP, dan melakukan banyak tugas lain yang tidak dapat dilakukan melalui recovery bawaan.</p>
+      </section>
+      <section id="installation">
+        <h2>Installation</h2>
+        <p>Untuk menginstal TWRP pada perangkat Android, Anda memerlukan akses root dan harus memasang file IMG TWRP melalui ADB atau melalui aplikasi seperti Fastboot. Pastikan untuk membaca petunjuk dan membuat cadangan sebelum melakukan proses ini.</p>
+      </section>
+      <section id="usage">
+        <h2>Usage</h2>
+        <p>Setelah TWRP terpasang, Anda dapat memboot ke mode recovery dengan menekan tombol kombinasi tertentu saat menyalakan perangkat. Dalam TWRP, Anda dapat membackup dan memulihkan sistem operasi, memasang file ZIP, dan melakukan banyak tugas lain.</p>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2023 TWRP for Android</p>
+    </footer>
   </body>
 </html>
