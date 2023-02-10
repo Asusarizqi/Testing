@@ -20,10 +20,24 @@ height:230px;
 background:blue;
 
 }
-
 .kotak{
--webkit-clip-path: polygon(100% 0, 100% 65%, 54% 100%, 0 100%, 0 0);
-clip-path: polygon(100% 0, 100% 65%, 54% 100%, 0 100%, 0 0);
+width:150px;
+
+height:150px;
+
+background:green;
+}
+
+.kotak:before{
+    position:absolute; left:-1px; top:-1px; content:'';
+    border-top: 70px solid silver;
+    border-right: 70px solid transparent;
+}
+
+.kotak:after{
+    position:absolute; left:-2px; top:-2px; content:'';
+    border-top: 70px solid white;
+    border-right: 70px solid transparent;
 }
 					
 </style>
