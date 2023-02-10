@@ -22,20 +22,14 @@ background:blue;
 }
 .kotak{
 width:150px;
-
 height:150px;
-
 background: red;
-}
 
-.kotak:before{
-    border-bottom: 70px solid silver;
-    border-left: 70px solid transparent;
-}
-
-.kotak:after{
-    border-bottom: 70px solid white;
-    border-left: 70px solid transparent;
+clip-path:
+   polygon(0% 0px,
+           0px 0%,
+           100% calc(100% - 0px),
+           calc(100% - 0px) 100%
 }
 					
 </style>
