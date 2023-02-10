@@ -30,16 +30,8 @@ background:blue;
   aspect-ratio:1.5;
   position:relative;
   z-index:0;
-}
-. kotak:after {
-  content: '';
-  position: absolute;
-  width: 1100%; height: 1100%;
-  top: 20px; right: -500%;
-  background: blue
-  transform-origin: 54% 0;
-  transform: rotate(45deg);
-  z-index: -1;
+-webkit-clip-path: polygon(100% 0, 100% 65%, 54% 100%, 0 100%, 0 0);
+clip-path: polygon(100% 0, 100% 65%, 54% 100%, 0 100%, 0 0);
 }
 					
 </style>
